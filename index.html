@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio | Desenvolvedor de Bots e Web</title>
+  <title>Portfólio | Bots, Automações e Sites</title>
 
   <style>
     * {
@@ -14,25 +14,30 @@
     }
 
     body {
-      background: #0f0f0f;
+      background: #0e0e0e;
       color: #ffffff;
       line-height: 1.6;
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
-      padding: 60px 20px;
+      padding: 70px 20px;
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.7rem;
       margin-bottom: 15px;
     }
 
     h2 {
-      margin-bottom: 20px;
+      font-size: 1.8rem;
+      margin-bottom: 25px;
       color: #00ffa3;
+    }
+
+    h3 {
+      margin-bottom: 10px;
     }
 
     p {
@@ -42,39 +47,41 @@
 
     .btn {
       display: inline-block;
-      padding: 14px 28px;
-      background: #00ffa3;
+      padding: 15px 32px;
+      background: linear-gradient(135deg, #00ffa3, #00c27a);
       color: #000;
-      border-radius: 6px;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      transition: 0.3s;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 10px 25px rgba(0,255,163,0.25);
     }
 
     .btn:hover {
-      opacity: 0.85;
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(0,255,163,0.35);
     }
 
     .section {
-      margin-top: 80px;
+      margin-top: 90px;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
     }
 
     .card {
-      background: #1a1a1a;
-      padding: 25px;
-      border-radius: 10px;
+      background: #161616;
+      padding: 30px;
+      border-radius: 14px;
       border: 1px solid #2a2a2a;
     }
 
     footer {
       text-align: center;
-      padding: 40px 20px;
+      padding: 50px 20px;
       color: #777;
       font-size: 0.9rem;
     }
@@ -83,17 +90,17 @@
 <body>
 
   <div class="container">
+
     <!-- HERO -->
-    <h1>Desenvolvedor de Bots, Automações e Soluções Web</h1>
+    <h1>Bots, automações e sites prontos para gerar atendimento e vendas</h1>
     <p>
-      Crio bots para Discord, chatbots para WhatsApp e landing pages focadas
-      em conversão e geração de leads.
+      Desenvolvo bots para Discord, chatbots para WhatsApp e landing pages simples
+      focadas em conversão e contato rápido pelo WhatsApp.
     </p>
 
-  <a class="btn" href="https://wa.me/5543996056639?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20saber%20mais%20sobre%20bots,%20automações%20ou%20sites.%20Pode%20me%20explicar%20como%20funciona?" target="_blank">
-  Falar no WhatsApp
-  </a>
-
+    <a class="btn" href="https://wa.me/5543996056639?text=Olá!%20Vi%20seu%20portfólio%20e%20estou%20interessado%20em%20criar%20um%20bot,%20automação%20ou%20site.%20Pode%20me%20informar%20como%20funciona,%20prazo%20e%20valor%20médio?" target="_blank">
+      Solicitar orçamento no WhatsApp
+    </a>
 
     <!-- SERVIÇOS -->
     <div class="section">
@@ -103,82 +110,5 @@
         <div class="card">
           <h3>🤖 Bots para Discord</h3>
           <p>
-            Bots de ticket, moderação, boas-vindas,
-            cargos automáticos e automações personalizadas.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>💬 Chatbots para WhatsApp</h3>
-          <p>
-            Atendimento automático, FAQ com IA,
-            encaminhamento para atendimento humano.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>🌐 Landing Pages</h3>
-          <p>
-            Sites institucionais e páginas de captura
-            focadas em conversão e WhatsApp.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- PROJETOS -->
-    <div class="section">
-      <h2>Projetos (Demonstração)</h2>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Bot de Ticket - Discord</h3>
-          <p>
-            Sistema de atendimento com botão,
-            canal privado e fechamento de tickets.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Bot de Boas-vindas</h3>
-          <p>
-            Mensagem automática, cargo inicial
-            e embed personalizada.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Chatbot WhatsApp</h3>
-          <p>
-            Respostas automáticas treinadas com FAQ
-            e redirecionamento humano.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Landing Page Institucional</h3>
-          <p>
-            Página única otimizada para geração
-            de contatos e orçamentos.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- TECNOLOGIAS -->
-    <div class="section">
-      <h2>Tecnologias</h2>
-      <p>
-        JavaScript (Node.js) • Python • Discord.js • Discord.py •
-        HTML • CSS • APIs • Automações
-      </p>
-    </div>
-  </div>
-
-  <footer>
-    © 2026 — Portfólio de Programação
-  </footer>
-
-</body>
-</html>
-
+            Sistemas de ticket, moderação, boas-vindas,
+            cargos automáticos e automações personalizadas
